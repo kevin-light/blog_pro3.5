@@ -1,0 +1,34 @@
+2017-09-26 16:33:05,318 [Thread-2:8184] [blog.views:12] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-26 17:24:18,030 [Thread-2:8088] [blog.views:13] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-09-26 17:24:50,940 [Thread-5:4312] [blog.views:13] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-10-09 11:58:24,682 [Thread-2:5908] [blog.views:26] [views:index] [ERROR]- module 'django.db.models' has no attribute 'Category'
+2017-10-09 12:01:12,677 [Thread-2:5888] [blog.views:26] [views:index] [ERROR]- module 'django.db.models' has no attribute 'Category'
+2017-10-09 16:57:58,303 [Thread-7:7896] [blog.views:39] [views:index] [ERROR]- invalid literal for int() with base 10: 'LIST_INFO'
+2017-10-09 17:57:38,841 [Thread-2:7008] [blog.views:42] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 18:01:24,975 [Thread-2:8388] [blog.views:42] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 18:07:31,164 [Thread-2:7568] [blog.views:41] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 18:09:10,468 [Thread-2:8524] [blog.views:41] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 18:11:15,257 [Thread-12:2852] [blog.views:41] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 18:13:26,862 [Thread-2:5556] [blog.views:42] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 18:16:03,464 [Thread-2:7752] [blog.views:43] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 18:31:37,144 [Thread-2:6472] [blog.views:43] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 18:51:38,034 [Thread-2:6308] [blog.views:43] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 18:52:38,353 [Thread-2:5684] [blog.views:43] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:10:00,651 [Thread-2:6552] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:10:23,994 [Thread-2:6996] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:13:26,395 [Thread-2:8556] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:15:25,042 [Thread-2:7556] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:19:01,835 [Thread-40:4508] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:19:04,763 [Thread-41:6612] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:19:05,340 [Thread-42:8500] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:19:05,788 [Thread-43:7888] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:19:06,221 [Thread-44:7040] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:19:06,603 [Thread-45:8992] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:19:06,899 [Thread-46:9080] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:19:07,140 [Thread-47:8200] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:19:07,423 [Thread-48:4620] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:19:07,626 [Thread-49:6472] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:19:07,909 [Thread-50:5380] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:19:08,101 [Thread-51:7736] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:19:40,299 [Thread-52:8848] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:22:16,141 [Thread-2:8012] [blog.views:48] [views:index] [ERROR]- 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence

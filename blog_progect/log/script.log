@@ -1,0 +1,479 @@
+2017-09-26 16:33:05,489 [Thread-3:7208] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-09-26 16:35:59,731 [Thread-3:5812] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-09-26 16:47:34,278 [Thread-3:7500] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-09-26 16:52:47,075 [Thread-3:8512] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-09-28 09:17:00,493 [Thread-25:7080] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-08 16:04:49,956 [Thread-10:6272] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-08 17:41:38,676 [Thread-12:7220] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\contrib\admin\options.py", line 642, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "c:\python3.6\lib\site-packages\django\forms\models.py", line 548, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "c:\python3.6\lib\site-packages\django\forms\models.py", line 257, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (is_recommend) specified for Article
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "c:\python3.6\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "c:\python3.6\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "c:\python3.6\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "c:\python3.6\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "c:\python3.6\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "c:\python3.6\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "c:\python3.6\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "c:\python3.6\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "c:\python3.6\Lib\contextlib.py", line 53, in inner
+    return func(*args, **kwds)
+  File "c:\python3.6\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "c:\python3.6\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: Unknown field(s) (is_recommend) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2017-10-08 17:45:36,030 [Thread-9:1140] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\contrib\admin\options.py", line 642, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "c:\python3.6\lib\site-packages\django\forms\models.py", line 548, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "c:\python3.6\lib\site-packages\django\forms\models.py", line 257, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (is_recommend) specified for Article
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "c:\python3.6\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "c:\python3.6\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "c:\python3.6\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "c:\python3.6\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "c:\python3.6\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "c:\python3.6\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "c:\python3.6\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "c:\python3.6\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "c:\python3.6\Lib\contextlib.py", line 53, in inner
+    return func(*args, **kwds)
+  File "c:\python3.6\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "c:\python3.6\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: Unknown field(s) (is_recommend) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2017-10-08 19:38:45,120 [Thread-2:5856] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-08 19:38:45,528 [Thread-3:10092] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/blog/user//
+2017-10-09 11:35:20,157 [Thread-15:5632] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-09 11:52:24,583 [Thread-2:6560] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Workspace\blog_progect\blog\views.py", line 24, in index
+    category_list = models.Category.objects.all()
+AttributeError: module 'django.db.models' has no attribute 'Category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Workspace\blog_progect\blog\views.py", line 26, in index
+    logger.error(e)
+NameError: name 'logger' is not defined
+2017-10-09 11:52:36,745 [Thread-8:2592] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-09 11:55:26,055 [Thread-2:7072] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Workspace\blog_progect\blog\views.py", line 24, in index
+    category_list = models.Category.objects.all()
+AttributeError: module 'django.db.models' has no attribute 'Category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Workspace\blog_progect\blog\views.py", line 26, in index
+    settings.logger.error(e)
+AttributeError: module 'blog_progect.settings' has no attribute 'logger'
+2017-10-09 11:55:58,290 [Thread-2:6524] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Workspace\blog_progect\blog\views.py", line 24, in index
+    category_list = models.Category.objects.all()
+AttributeError: module 'django.db.models' has no attribute 'Category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Workspace\blog_progect\blog\views.py", line 26, in index
+    settings.logger.error(e)
+  File "c:\python3.6\lib\site-packages\django\conf\__init__.py", line 54, in __getattr__
+    return getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'logger'
+2017-10-09 11:58:24,683 [Thread-2:5908] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Workspace\blog_progect\blog\views.py", line 28, in index
+    return render(request, 'index.html', {'category_list':category_list})
+UnboundLocalError: local variable 'category_list' referenced before assignment
+2017-10-09 12:01:12,678 [Thread-2:5888] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Workspace\blog_progect\blog\views.py", line 28, in index
+    return render(request, 'index.html', {'category_list':category_list})
+UnboundLocalError: local variable 'category_list' referenced before assignment
+2017-10-09 12:03:51,006 [Thread-3:5720] [django.request:152] [base:get_response] [WARNING]- Not Found: /news.html
+2017-10-09 12:57:54,198 [Thread-3:6360] [django.request:152] [base:get_response] [WARNING]- Not Found: /ad/2017/10/11111111111111.jpg
+2017-10-09 12:58:17,928 [Thread-3:5888] [django.request:152] [base:get_response] [WARNING]- Not Found: /ad/2017/10/11111111111111.jpg
+2017-10-09 12:58:20,340 [Thread-4:4408] [django.request:152] [base:get_response] [WARNING]- Not Found: /ad/2017/10/11111111111111.jpg
+2017-10-09 12:58:33,891 [Thread-5:5112] [django.request:152] [base:get_response] [WARNING]- Not Found: /ad/2017/10/11111111111111.jpg
+2017-10-09 13:00:36,677 [Thread-15:6872] [django.request:152] [base:get_response] [WARNING]- Not Found: /ad/2017/10/11111111111111.jpg
+2017-10-09 16:38:49,042 [Thread-3:7380] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Workspace\blog_progect\blog\views.py", line 42, in index
+    return render(request, 'index.html', locals())   #locals()默认传入所有变量
+  File "c:\python3.6\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "c:\python3.6\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "c:\python3.6\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "c:\python3.6\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "c:\python3.6\lib\site-packages\django\template\engine.py", line 160, in get_template
+    template, origin = self.find_template(template_name)
+  File "c:\python3.6\lib\site-packages\django\template\engine.py", line 134, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "c:\python3.6\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 233, in compile_nodelist
+    return parser.parse()
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "c:\python3.6\lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "c:\python3.6\lib\site-packages\django\template\loader_tags.py", line 242, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "c:\python3.6\lib\site-packages\django\template\defaulttags.py", line 803, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 489, in parse
+    raise self.error(token, e)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 603, in compile_filter
+    return FilterExpression(token, self)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 697, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 609, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'data'
+2017-10-09 16:57:57,605 [Thread-6:6532] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-09 17:10:01,762 [Thread-3:7272] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-09 18:08:16,168 [Thread-7:5860] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-09 19:02:56,872 [Thread-2:6232] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Workspace\blog_progect\blog\views.py", line 51, in index
+    return render(request, 'index.html', locals())   #locals()默认传入所有变量
+  File "c:\python3.6\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "c:\python3.6\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "c:\python3.6\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "c:\python3.6\Lib\contextlib.py", line 82, in __enter__
+    return next(self.gen)
+  File "c:\python3.6\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Workspace\blog_progect\blog\views.py", line 19, in global_setting
+    archive_list = Article.objects.distinct_date()
+  File "E:\Workspace\blog_progect\blog\models.py", line 45, in distinct_date
+    date = date['date_publish'].strftime('%Y/%m文章存档')
+UnicodeEncodeError: 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:07:14,965 [Thread-2:7368] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Workspace\blog_progect\blog\views.py", line 51, in index
+    return render(request, 'index.html', locals())   #locals()默认传入所有变量
+  File "c:\python3.6\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "c:\python3.6\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "c:\python3.6\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "c:\python3.6\Lib\contextlib.py", line 82, in __enter__
+    return next(self.gen)
+  File "c:\python3.6\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Workspace\blog_progect\blog\views.py", line 19, in global_setting
+    archive_list = Article.objects.distinct_date()
+  File "E:\Workspace\blog_progect\blog\models.py", line 45, in distinct_date
+    date = date['date_publish'].strftime('%Y/%m文章存档')
+UnicodeEncodeError: 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:10:00,673 [Thread-2:6552] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Workspace\blog_progect\blog\views.py", line 51, in index
+    return render(request, 'index.html', locals())   #locals()默认传入所有变量
+  File "c:\python3.6\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "c:\python3.6\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "c:\python3.6\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "c:\python3.6\Lib\contextlib.py", line 82, in __enter__
+    return next(self.gen)
+  File "c:\python3.6\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Workspace\blog_progect\blog\views.py", line 19, in global_setting
+    archive_list = Article.objects.distinct_date()
+  File "E:\Workspace\blog_progect\blog\models.py", line 45, in distinct_date
+    date = date['date_publish'].strftime('%Y/%m文章存档')
+UnicodeEncodeError: 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:10:24,016 [Thread-2:6996] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Workspace\blog_progect\blog\views.py", line 51, in index
+    return render(request, 'index.html', locals())   #locals()默认传入所有变量
+  File "c:\python3.6\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "c:\python3.6\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "c:\python3.6\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "c:\python3.6\Lib\contextlib.py", line 82, in __enter__
+    return next(self.gen)
+  File "c:\python3.6\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Workspace\blog_progect\blog\views.py", line 19, in global_setting
+    archive_list = Article.objects.distinct_date()
+  File "E:\Workspace\blog_progect\blog\models.py", line 45, in distinct_date
+    date = date['date_publish'].strftime('%Y/%m文章存档')
+UnicodeEncodeError: 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:13:26,420 [Thread-2:8556] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Workspace\blog_progect\blog\views.py", line 51, in index
+    return render(request, 'index.html', locals())   #locals()默认传入所有变量
+  File "c:\python3.6\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "c:\python3.6\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "c:\python3.6\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "c:\python3.6\Lib\contextlib.py", line 82, in __enter__
+    return next(self.gen)
+  File "c:\python3.6\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Workspace\blog_progect\blog\views.py", line 19, in global_setting
+    archive_list = Article.objects.distinct_date()
+  File "E:\Workspace\blog_progect\blog\models.py", line 45, in distinct_date
+    date = date['date_publish'].strftime('%Y/%m文章存档')
+UnicodeEncodeError: 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-09 19:35:26,322 [Thread-2:4800] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Workspace\blog_progect\blog\views.py", line 51, in index
+    return render(request, 'index.html')   #locals()默认传入所有变量
+  File "c:\python3.6\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "c:\python3.6\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "c:\python3.6\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "c:\python3.6\Lib\contextlib.py", line 82, in __enter__
+    return next(self.gen)
+  File "c:\python3.6\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Workspace\blog_progect\blog\views.py", line 19, in global_setting
+    archive_list = Article.objects.distinct_date()
+  File "E:\Workspace\blog_progect\blog\models.py", line 45, in distinct_date
+    date = date['date_publish'].strftime('%Y/%m文章存档')
+UnicodeEncodeError: 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-10 08:47:54,885 [Thread-2:5784] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 215, in _get_response
+    response = response.render()
+  File "c:\python3.6\lib\site-packages\django\template\response.py", line 109, in render
+    self.content = self.rendered_content
+  File "c:\python3.6\lib\site-packages\django\template\response.py", line 86, in rendered_content
+    content = template.render(context, self._request)
+  File "c:\python3.6\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "c:\python3.6\Lib\contextlib.py", line 82, in __enter__
+    return next(self.gen)
+  File "c:\python3.6\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Workspace\blog_progect\blog\views.py", line 19, in global_setting
+    archive_list = Article.objects.distinct_date()
+  File "E:\Workspace\blog_progect\blog\models.py", line 45, in distinct_date
+    date = date['date_publish'].strftime('%Y/%m文章存档')
+UnicodeEncodeError: 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-10 08:47:54,890 [Thread-3:6868] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 215, in _get_response
+    response = response.render()
+  File "c:\python3.6\lib\site-packages\django\template\response.py", line 109, in render
+    self.content = self.rendered_content
+  File "c:\python3.6\lib\site-packages\django\template\response.py", line 86, in rendered_content
+    content = template.render(context, self._request)
+  File "c:\python3.6\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "c:\python3.6\Lib\contextlib.py", line 82, in __enter__
+    return next(self.gen)
+  File "c:\python3.6\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Workspace\blog_progect\blog\views.py", line 19, in global_setting
+    archive_list = Article.objects.distinct_date()
+  File "E:\Workspace\blog_progect\blog\models.py", line 45, in distinct_date
+    date = date['date_publish'].strftime('%Y/%m文章存档')
+UnicodeEncodeError: 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
+2017-10-10 08:47:57,052 [Thread-4:6176] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-10 08:47:57,082 [Thread-5:5672] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-10 08:47:57,240 [Thread-6:6172] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-10 08:48:08,718 [Thread-7:6656] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-10-10 08:48:09,021 [Thread-8:6444] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "c:\python3.6\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "c:\python3.6\lib\site-packages\django\core\handlers\base.py", line 215, in _get_response
+    response = response.render()
+  File "c:\python3.6\lib\site-packages\django\template\response.py", line 109, in render
+    self.content = self.rendered_content
+  File "c:\python3.6\lib\site-packages\django\template\response.py", line 86, in rendered_content
+    content = template.render(context, self._request)
+  File "c:\python3.6\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "c:\python3.6\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "c:\python3.6\Lib\contextlib.py", line 82, in __enter__
+    return next(self.gen)
+  File "c:\python3.6\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+  File "E:\Workspace\blog_progect\blog\views.py", line 19, in global_setting
+    archive_list = Article.objects.distinct_date()
+  File "E:\Workspace\blog_progect\blog\models.py", line 45, in distinct_date
+    date = date['date_publish'].strftime('%Y/%m文章存档')
+UnicodeEncodeError: 'locale' codec can't encode character '\u6587' in position 5: Illegal byte sequence
